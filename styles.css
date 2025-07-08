@@ -10,7 +10,7 @@ body {
    background-position: center;
 }
 header { 
-   background: linear-gradient(0deg,#00bbff, #ffffff);
+   background: linear-gradient(0deg,#ff0000, #ffffff);
    color: #fff;
    display: flex;
    align-items: center;
@@ -37,6 +37,11 @@ header nav {
 nav a { 
    color: #000000; 
    margin-left: 2rem;
+   text-decoration: none;
+   font-weight: 500; 
+}
+.bartxt { 
+   color: #000000; 
    text-decoration: none;
    font-weight: 500; 
 }
