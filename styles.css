@@ -1,0 +1,42 @@
+:root {
+  --header-height: 60px;
+}
+body { 
+   padding-top: 60px /*var(--header-height)*/; 
+   font-family: 'Segoe UI', Arial, sans-serif; 
+   margin: 0; 
+   background: #f3f3f3; 
+   background-size: cover;
+   background-position: center;
+}
+header { 
+   background: linear-gradient(0deg,#00bbff, #ffffff);
+   color: #fff;
+   display: flex;
+   align-items: center;
+   justify-content: space-between; 
+   position: fixed;
+   top: 0;
+   left: 0;
+   width: 100%;
+   height: var(--header-height);
+   z-index: 1000;  
+   opacity: 0.65;
+   min-width: 0;
+}
+header h1 { 
+   margin: 0;
+   font-size: 1.5rem; 
+}
+header nav {
+   flex-shrink: 1;
+   min-width: 0;
+   overflow-x: auto;
+   white-space: nowrap;
+}
+nav a { 
+   color: #000000; 
+   margin-left: 2rem;
+   text-decoration: none;
+   font-weight: 500; 
+}
